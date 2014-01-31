@@ -159,8 +159,9 @@ THE SOFTWARE.
 				
 				_init=true;
 				
+
 				functions._prepareSegments.call(null);
-				
+
 				/* setup selectors, target elements, basic plugin classes etc. */
 				
 				functions._setup.call(null);
@@ -212,8 +213,7 @@ THE SOFTWARE.
 	*/
 	
 		functions={
-
-			
+		
 			/* Prepare Segments */
 			
 			_prepareSegments:function(){
@@ -223,7 +223,7 @@ THE SOFTWARE.
 				}
 				return;
 			},
-			
+
 			
 			/* checks if href attribute is valid */
 			
@@ -500,7 +500,10 @@ THE SOFTWARE.
 					methods.init.apply(this);
 				}
 			},
+<<<<<<< HEAD
 
+=======
+>>>>>>> 91719c610c330d4ffd64fea4319075d111cf01f5
 			
 			/* extends jquery with custom easings (as jquery ui) */
 			
